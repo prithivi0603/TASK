@@ -1,0 +1,318 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>TASK</title>
+    <style>
+        img{
+            width: 300px;
+            height: 200px;
+        }
+        .box {
+            background-color: black;
+            display: flex;
+            text-transform: uppercase;
+            height: 80px;
+            color: white;
+        }
+
+        @media screen and (min-width:320px) and (max-width:414px)  {
+            .box {
+                flex-wrap: wrap;
+                color: white ;
+                background-color: black;
+                width: 550px;
+            }
+        }
+
+        .box1 {
+            display: flex;
+            padding-left: 500px;
+            margin: auto;
+            color: white; 
+        }
+
+        @media screen and (min-width:320px) and (max-width:414px) {
+            .box1 {
+                display: none;
+                padding: auto;
+                background-color: black;
+            }
+        }
+
+        .div {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            text-align: justify;
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        @media screen and (min-width:320px) and (max-width:414px) {
+            .div {
+                flex-wrap: wrap;
+                gap: 10px;
+                width: max-content;
+
+            }
+        }
+
+        .t3 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            padding: 10px;
+          }
+
+        @media screen and (min-width:320px) and (max-width:414px){
+            .t3 {
+                flex-wrap: wrap;
+                padding: 10px;
+                position: relative;
+                left: 80px;
+                gap: 20px;
+            }
+        }
+
+        .bor {
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            border-collapse: separate;
+            padding: 15px;
+        }
+
+        @media screen and (min-width:320px) and (max-width:414px) {
+            .bor {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+
+        .but {
+            border: none;
+            padding: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        @media screen and (min-width:320px) and (max-width:414px) {
+            .but {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+
+        .s1 {
+         background-color:black;
+         color: white;
+            border-radius: 150px;
+            text-transform: capitalize;
+            padding: 7px;
+        }
+
+        @media screen and (min-width:320px) and (max-width:414px){
+            .s1 {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+
+        .demo {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding: 10px;
+        }
+
+        @media screen and (min-width:320px) and (max-width:414px){
+            .demo {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+
+        .for {
+            margin-bottom: 100px;
+            border: 2px solid black;
+        }
+
+        @media screen and (min-width:320px) and (max-width:414px){
+            .for {
+                flex-wrap: wrap;
+                gap: 30px;
+            }
+        }
+
+        .text {
+            border-radius: 100px;
+        }
+
+        @media screen and (min-width:320px) and (max-width:414px){
+            .text {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+
+        iframe,
+        form {
+            width: 500px;
+            height: 500px;
+            margin-top: 10px;
+        }
+
+        @media screen and (min-width:320px)and (max-width:414px){
+
+            iframe,
+            form {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+
+        .disp {
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            color: white;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+
+        @media screen and (min-width:320px) and (max-width:414px){
+            .disp {
+                flex-wrap: wrap;
+                background-color: black;
+                text-align: justify;
+                width: 550px;
+                gap: 20px;
+            }
+        }
+
+        .copy {
+            background-color: black;
+            color: white;
+            padding-bottom: 20px;
+            font-weight: bold;
+            border: 1px solid white;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        @media screen and (min-width:320px)  and (max-width:414px) {
+            .copy {
+                flex-wrap: wrap;
+                width: 550px;
+                text-align: center;
+            }
+        }
+    </style>  
+</head>
+
+<body>
+    <div class="box">
+        <h1 style="padding-left:30px;">brand logo</h1>
+        <div class="box1">
+            <div>home</div>
+            <div style="padding-left:30px;">about</div>
+            <div style="padding-left:30px;">services</div>
+            <div style="padding-left:30px;">contact</div>
+            <div style="padding-left:30px;">blog</div>
+        </div>
+    </div>
+    <div class="div">
+        <div style="width: 500px;">
+            <h1>Full-Stack</h1>
+            <p style="text-indent: 50px;">A full-stack developer is a software developer who possesses
+                expertise in both front-end and back-end technologies, enabling
+                them to work on all aspects of a web application.
+                They are responsible for designing and implementing the user interface (front-end) and
+                the underlying logic and data storage (back-end), ensuring a cohesive and functional application.
+                This versatility makes them highly sought after in the tech industry, as they can handle projects from
+                start to finish and efficiently address any issues that may arise.A full-stack developer needs a blend
+                of front-end and back-end skills to build complete web applications. Key skills include proficiency in
+                HTML, CSS, JavaScript, a backend language (like Python, Ruby, or Java), database management. </p>
+        </div>
+    </div>
+    <div class="t3">
+        <div class="bor">
+            <img src="img1.gif" alt="loading">
+            <div class="but">
+                <button class="s1">submit</button>
+            </div>
+        </div>
+        <div class="bor">
+            <img src="full.gif" alt="error">
+            <div class="but">
+                <button class="s1">submit</button>
+            </div>
+        </div>
+        <div class="bor">
+            <img src="img2.gif" alt="error">
+            <div class="but">
+                <button class="s1">submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="demo">
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.0154433053317!2d78.09273747372421!3d9.932671474192302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf94a4cf434b%3A0x4e486d44654dbb65!2sEdex%20Tech!5e0!3m2!1sen!2sin!4v1748580560746!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+            <form>
+                <fieldset class="for">
+                    <legend>
+                        <h3>SIGNUP FORM</h3>
+                    </legend>
+                       ENTER YOUR NAME <input class="text" type="text"><br><br>
+                       ENTER YOUR EMAIL <input class="text" type="email"><br><br>
+                       ENTER YOUR DATE OF BIRTH <input class="text" type="date" ><br><br>
+                        <label for="co">WHICH COURSE SELECT</label><br><br>
+                        <input type="checkbox" id="co" value="front-end">FRONT-END <br>
+                        <input type="checkbox" id="co" value="back-end">BACK-END<br>
+                        <input type="checkbox" id="co" value="full-stack">FULL-STACK <br>
+                        <input type="checkbox" id="co" value="ui/ux">UI/UX<br> <br>
+                        <label for="gen">ENTER YOUR GENDER</label> <br> <br>
+                        <input type="radio" name="r1" id="gen">MALE <br>
+                        <input type="radio" name="r1" id="gen">FEMALE <br>
+                        <input type="radio" name="r1" id="gen">OTHERS<br> <br>
+                        <input class="text s1" type="submit">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="disp">
+        <div style="margin-top: 50px;width: 400px;">
+            <h1>brand logo</h1>
+        </div>
+        <div>
+            <h4>weebly themes</h4>
+            <h4>pre-sale faos</h4>
+            <h4>submit a ticket</h4>
+        </div>
+        <div>
+            <h4>services</h4>
+            <h4>theme tweak</h4>
+        </div>
+        <div>
+            <h4>swocase</h4>
+            <h4>widgetkit</h4>
+            <h4>support</h4>
+        </div>
+        <div>
+            <h4>about us</h4>
+            <h4>contact us</h4>
+            <h4>affiliates</h4>
+            <h4>resources</h4>
+        </div>
+    </div>
+    <div class="copy">
+        © copyrights all rights reserves
+    </div>
+</body>
+
+</html>
