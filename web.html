@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EATERY CAFE & RESTAURANT</title>
     <link rel="icon" href="ic.gif">
-    <link active active active href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
-        rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
-        crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script> 
-    </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="web.css">
+
+</head>
 
 <body>
-   
-    <div class="container-fluid"id="home">
+    <script src="web.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <div class="container-fluid" id="home">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -45,7 +49,7 @@
                 </div>
                 <div class="container fw-bold">
                     <div class="row ">
-                        <div class="col bg-light fixed-top text-bg-light">
+                        <div class="col  fixed-top text-bg-light">
                             <nav class="navbar navbar-expand-lg p-3">
                                 <a class="navbar-brand " href="#">Eatery <i class="bi bi-fork-knife"></i> Cafe</a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -56,7 +60,7 @@
                                 <div class="collapse navbar-collapse" id="navbarText">
                                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 g-5 ">
                                         <li class="nav-item  ">
-                                            <a class="nav-link active " href="#home">HOME</a>
+                                            <a   class="nav-link active " href="#home">HOME</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link active " href="#about">ABOUT</a>
@@ -86,40 +90,43 @@
             </div>
         </div>
     </div>
-    <div data-aos="fade-right">
-    <div class="container-fluid "id="about">
-        <div class="container ">
-            <div class="row mt-5 ">
-                <div class="col-lg-6 col-md-12 col-12">
-                    <br>
-                    <p>READ OUR OWN STORY</p>
-                    <h1>We've been making The Delicious Foods Since 1999</h1>
-                    <br>
-                    <p>Fusce hendrerit malesuada lacinic. Donec semper semper sem vitae malesuada. Proin scelerisque
-                        risus at ipsum semper molestiesed in nisi.
-                        Ut rhoncus congue lectus, rhoncus venenatis leo malesueda id.
-                    </p>
-                    <br>
-                    <p>sed elementum vel feils sed scelerisque.In arcu diam, sollicitdinen nibhac, posuere tristique
-                        magna.You can use this template for your cafe or restaurant website. Please tell your friend
-                        about templatemo.Thank you.
-                    </p>
-                </div>
-                <div class="col-lg-6 col-md-12 col-12 mt-3">
-                    <img src="chef.gif" alt="error" class="img-fluid " width="100%" height="100%">
+    <div data-aos="fade-up">
+        <div class="container-fluid " id="about">
+            <div class="container ">
+                <div class="row mt-5 ">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <br>
+                        <p>READ OUR OWN STORY</p>
+                        <h1>We've been making The Delicious Foods Since 1999</h1>
+                        <br>
+                        <p>Fusce hendrerit malesuada lacinic. Donec semper semper sem vitae malesuada. Proin scelerisque
+                            risus at ipsum semper molestiesed in nisi.
+                            Ut rhoncus congue lectus, rhoncus venenatis leo malesueda id.
+                        </p>
+                        <br>
+                        <p>sed elementum vel feils sed scelerisque.In arcu diam, sollicitdinen nibhac, posuere tristique
+                            magna.You can use this template for your cafe or restaurant website. Please tell your friend
+                            about templatemo.Thank you.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-12 mt-3">
+                        <img src="chef.gif" alt="error" class="img-fluid " width="100%" height="100%">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
 
-    <div class="container-fluid  bg-body-tertiary"id="chef">
+    <div class="container-fluid  bg-body-tertiary" id="chef">
+        
         <div class="container">
             <div class="row mt-5">
                 <div class="col-md-12 col-sm-6">
                     <div class="section-title wow fadeInUp text-center mb-5 mt-5" data-wow-delay="0.1s">
-                        <h2>Meet our chefs</h2>
-                        <h4>They are nice & friendly</h4>
+                        <div data-aos="zoom-in">
+                            <h2>Meet our chefs</h2>
+                            <h4>They are nice & friendly</h4>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
@@ -149,6 +156,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-3 col-md-6 col-12 ">
                     <div class="card mb-3 ">
                         <img src="cook4.gif" class="card-img-top" alt="error" width="512px" height="400px">
@@ -168,6 +176,7 @@
     </div>
     <div class="container-fluid">
         <div class="row mt-5">
+
             <div class="col-lg-3 col-md-6 col-12 g-5">
                 <div class="card" style="width: 18rem;">
                     <img src="menu1.gif" class="card-img-top" alt="error">
@@ -392,10 +401,11 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-12 g-5 ">
-                    <i class="bi bi-facebook p-2"></i>
-                    <i class="bi bi-google p-2"></i>
-                    <i class="bi bi-instagram p-2"></i>
-                    <i class="bi bi-twitter p-2 "></i>
+                    <a class="bi bi-facebook p-2"></a>
+                    <a class="bi bi-google p-2"></a>
+                    <a class="bi bi-instagram p-2"
+                        href="https://www.instagram.com/prithivi._.v?igsh=MWg2cmMxd2hreGxyYg=="></a>
+                    <a class="bi bi-twitter p-2 "></a>
                     <br><br>
                     <p>copyright <i class="bi bi-c-circle"></i> 2025 </p>
                     <p>Easter cafe</p>
@@ -405,9 +415,10 @@
 
         </div>
     </div>
-     <script>
-  AOS.init();
-</script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
